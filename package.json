@@ -1,0 +1,71 @@
+{
+  "name": "madcut",
+  "version": "1.0.0",
+  "description": "CLI tool to cut markdown file in a madly comfortable way",
+  "main": "lib/madcut.js",
+  "type": "module",
+  "commitType": "colon",
+  "exports": {
+    ".": "./lib/madcut.js",
+    "./plugin": "./lib/plugin.js"
+  },
+  "scripts": {
+    "lint": "madrun lint",
+    "fresh:lint": "madrun fresh:lint",
+    "lint:fresh": "madrun lint:fresh",
+    "fix:lint": "madrun fix:lint",
+    "test": "madrun test",
+    "watch:test": "madrun watch:test",
+    "watch:tape": "madrun watch:tape",
+    "watch:lint": "madrun watch:lint",
+    "watcher": "madrun watcher",
+    "coverage": "madrun coverage",
+    "report": "madrun report",
+    "hello": "madrun hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/madcut.git"
+  },
+  "bin": {
+    "madcut": "bin/madcut.mjs",
+    "madcut-completion": "bin/madcut-completion.js"
+  },
+  "keywords": [
+    "madcut",
+    "markdown",
+    "cut",
+    "tool",
+    "commandline",
+    "command"
+  ],
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (http://coderaiser.github.io/)",
+  "bugs": {
+    "url": "https://github.com/coderaiser/madcut/issues"
+  },
+  "homepage": "https://github.com/coderaiser/madcut",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "@putout/processor-markdown": "^7.2.0"
+  },
+  "devDependencies": {
+    "c8": "^7.3.5",
+    "escover": "^2.0.1",
+    "eslint": "^8.0.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-putout": "^16.0.0",
+    "madrun": "^9.0.6",
+    "mock-import": "^3.0.0",
+    "mock-require": "^3.0.3",
+    "nodemon": "^2.0.0",
+    "nyc": "^15.0.0",
+    "runsome": "^1.0.0",
+    "supertape": "^7.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,741 @@
+2022.07.20, v9.0.6
+
+feature:
+- package: putout v27.0.0
+- package: eslint-plugin-putout v16.0.0
+
+
+2022.06.23, v9.0.5
+
+fix:
+- madrun: windows
+
+
+2022.05.27, v9.0.4
+
+feature:
+- (package) putout v26.9.0
+
+
+2022.05.08, v9.0.3
+
+feature:
+- (package) putout v26.0.0
+
+
+2022.03.29, v9.0.2
+
+feature:
+- (package) @putout/plugin-madrun v14.0.0
+
+
+2022.03.29, v9.0.1
+
+fix:
+- chore(actions) add auto fix
+
+
+feature:
+- (package) @putout/formatter-dump v4.0.0
+- (package) eslint-plugin-putout v14.0.1
+- (package) escover v2.0.1
+- (package) mock-import v3.0.0
+
+
+2022.02.17, v9.0.0
+
+feature:
+- (package) supertape v7.0.0
+- (package) @putout/plugin-madrun v13.0.0
+- (package) putout v25.0.0
+
+
+2022.01.14, v8.10.1
+
+fix:
+- (madrun) windows support
+
+2022.01.14, v8.10.0
+
+feature:
+- (madrun) get rid of simport
+- (package) @putout/formatter-json v2.0.0
+- (package) @putout/formatter-dump v3.0.2
+
+
+2022.01.12, v8.9.1
+
+feature:
+- (package) eslint-plugin-putout v13.0.0
+- (package) putout v24.0.0
+
+2021.12.21, v8.9.0
+
+feature:
+- (package) putout v23.0.0
+- (package) yargs-parser v21.0.0
+- (package) @putout/plugin-madrun v11.0.0
+- (package) eslint-plugin-putout v12.2.0
+
+
+2021.11.10, v8.8.12
+
+feature:
+- (package) putout v22.0.0
+
+
+2021.10.31, v8.8.11
+
+feature:
+- (package) eslint-plugin-putout v11.0.0
+- (package) putout v21.0.0
+- (package) mock-import v2.1.1
+
+
+2021.09.12, v8.8.10
+
+feature:
+- (package) putout v20.0.0
+- (package) eslint-plugin-putout v10.0.0
+
+
+2021.09.09, v8.8.9
+
+fix:
+- (package) get back to older find-up because of inability to test and problem with simport resolve
+
+
+2021.09.09, v8.8.8
+
+fix:
+- (madrun) await pre/post support
+
+feature:
+- (package) find-up v6.0.0
+- (package) eslint v8.0.0-beta.1
+
+
+2021.08.25, v8.8.7
+
+feature:
+- (package) supertape v6.0.5
+- (package) eslint v8.0.0-beta.0
+- (package) eslint-plugin-putout v9.2.1
+- (package) putout v19.0.1
+
+
+
+2021.07.16, v8.8.6
+
+fix:
+- (madrun) fix: initReport
+
+
+2021.05.28, v8.8.5
+
+feature:
+- (package) putout v18.0.0
+
+
+2021.05.18, v8.8.4
+
+fix:
+- (madrun) init: all scripts in one line
+
+feature:
+- (package) eslint-plugin-putout v8.0.0
+
+
+2021.05.03, v8.8.3
+
+fix:
+- (package) rm unused parent-dirs
+
+feature:
+- (package) putout v17.0.0
+
+
+2021.03.27, v8.8.2
+feature:
+- (package) putout v16.0.0
+
+2021.03.02, v8.8.1
+
+feature:
+- (package) @putout/plugin-madrun v10.0.0
+- (package) supertape v5.0.0
+
+
+2021.02.16, v8.8.0
+
+fix:
+- feature(madrun) : convert to ESM
+
+feature:
+- (madrun) fix: convert to ESM
+
+
+2021.02.15, v8.7.2
+
+fix:
+- (madrun) init: pre/post
+
+
+2021.02.13, v8.7.1
+
+fix:
+- (madrun) init
+
+
+2021.02.12, v8.7.0
+
+feature:
+- (madrun) init: convert to ESM
+
+
+2021.02.11, v8.6.5
+
+feature:
+- (package) putout v15.0.0
+
+
+2021.01.26, v8.6.4
+
+fix:
+- (npmignore) add fixture
+
+
+2021.01.26, v8.6.3
+
+feature:
+- (package) eslint-plugin-putout v7.0.0
+- (package) putout v14.0.0
+
+
+2021.01.25, v8.6.2
+
+fix:
+- (madrun) windows: simport
+
+
+2021.01.22, v8.6.1
+
+fix:
+- (madrun) import -> simport
+
+
+2021.01.12, v8.6.0
+
+feature:
+- (madrun) env: add ability to use any order
+
+
+2021.01.12, v8.5.0
+
+feature:
+- (madrun) add skipEnv
+
+
+2021.01.11, v8.4.0
+
+feature:
+- (madrun) add ability to pass env without calling run function
+
+
+2020.12.30, v8.3.8
+
+feature:
+- (madrun) use supported
+
+
+2020.12.30, v8.3.7
+
+fix:
+- (madrun) execSync: rm ipc
+
+
+2020.12.30, v8.3.6
+
+fix:
+- (madrun) e -> error
+
+
+2020.12.29, v8.3.5
+
+fix:
+- (package) rm unused mock-import
+
+
+2020.12.29, v8.3.4
+
+feature:
+- (package) @putout/plugin-madrun v9.0.0
+
+
+2020.12.28, v8.3.3
+
+feature:
+- (package) putout v13.0.0
+
+
+2020.12.28, v8.3.2
+
+fix:
+- (madrun) exec
+
+
+2020.12.28, v8.3.1
+
+fix:
+- (madrun) init
+
+
+2020.12.28, v8.3.0
+
+fix:
+- (madrun) rm coverage
+
+feature:
+- (madrun) readjson -> simport
+
+
+2020.12.25, v8.2.0
+
+feature:
+- (init) add support of .madrun.mjs, .madrun.cjs
+
+
+2020.12.19, v8.1.0
+
+feature:
+- (madrun) bin: init: asyncify
+
+
+2020.12.07, v8.0.5
+
+fix:
+- (madrun) init
+- (madrun) import -> await import
+
+
+2020.12.07, v8.0.4
+
+fix:
+- (madrun) --init
+
+
+2020.12.07, v8.0.3
+
+feature:
+- (package) putout v12.0.0
+
+
+2020.12.06, v8.0.2
+
+feature:
+- (package) @putout/plugin-madrun v8.0.0
+
+
+2020.12.05, v8.0.1
+
+fix:
+- (madrun) supported
+- (madrun) rm dead code
+
+feature:
+- (package) supertape v3.3.1
+
+
+2020.11.27, v8.0.0
+
+feature:
+- (madrun) rm predefined
+- (madrun) asyncify
+- (madrun) drop support of node < 14
+
+
+2020.11.04, v7.0.5
+
+feature:
+- (package) putout v11.0.4
+- (package) eslint-plugin-putout v6.0.1
+
+
+2020.09.16, v7.0.4
+
+feature:
+- (package) putout v10.0.1
+
+
+2020.09.11, v7.0.3
+
+feature:
+- (package) yargs-parser v20.0.0
+- (package) find-up v5.0.0
+
+
+2020.08.09, v7.0.2
+
+feature:
+- (package) @putout/plugin-madrun v7.0.0
+- (package) yargs-parser v19.0.1
+
+
+2020.07.28, v7.0.1
+
+fix:
+- (madrun) getOutput: arguments
+
+
+2020.06.24, v7.0.0
+
+feature:
+- (package) supertape v2.0.1
+- (package) @cloudcmd/stub v3.1.0
+- (package) eslint-plugin-putout v5.0.0
+- (package) putout v9.0.0
+- (package) eslint v7.3.1
+
+
+2020.05.07, v6.0.1
+
+feature:
+- (package) @putout/formatter-dump v2.0.1
+
+
+2020.05.04, v6.0.0
+
+feature:
+- (package) drop support of node < 10
+- (package) eslint-plugin-putout v4.0.0
+- (package) putout v8.0.0
+
+
+2020.04.24, v5.5.0
+
+feature:
+- (madrun) add support of .madrun.cjs
+
+
+2020.03.08, v5.4.5
+
+feature:
+- (package) putout v7.17.0
+- (package) yargs-parser v18.1.0
+- (package) @putout/plugin-madrun v6.0.0
+
+
+2020.02.24, v5.4.4
+
+fix:
+- (shell) rm
+
+
+2020.02.24, v5.4.3
+
+feature:
+- (package) try-catch v3.0.0
+
+
+2020.02.10, v5.4.2
+
+feature:
+- (package) yargs-parser v17.0.0
+
+
+2019.12.30, v5.4.1
+
+fix:
+- (bin) init: do not add .madrun when there is .*
+
+feature:
+- (package) eslint-plugin-node v11.0.0
+
+
+2019.12.25, v5.4.0
+
+feature:
+- (package) nyc v15.0.0
+- (madrun) script not found
+
+
+2019.12.21, v5.3.0
+
+feature:
+- (madrun) predefined: putout: add formatter support
+
+
+2019.12.21, v5.2.1
+
+feature:
+- (package) jessy v3.0.0
+
+
+2019.12.20, v5.2.0
+
+feature:
+- (madrun) add support of MADRUN_NAME
+
+
+2019.12.20, v5.1.1
+
+fix:
+- (madrun) MADRUN_CWD -> MADRUN_PWD
+
+
+2019.12.19, v5.1.0
+
+fix:
+- (madrun) version
+- (madrun) madrun.js -> .madrun.js
+
+feature:
+- (package) @putout/plugin-madrun v5.0.2
+- (madrun) add MADRUN_PWD
+
+
+2019.11.21, v5.0.1
+
+feature:
+- (package) nodemon v2.0.0
+- (package) all-object-keys v2.0.0
+
+
+2019.11.06, v5.0.0
+
+feature:
+- (package) putout v7.0.0
+- (package) eslint-plugin-putout v3.0.0
+- (package) @putout/plugin-madrun v4.0.0
+
+
+2019.11.04, v4.2.0
+
+feature:
+- (madrun) add ability to handle missing .madrun.js
+
+
+2019.10.28, v4.1.4
+
+fix:
+- (madrun) putoutMadrun
+
+
+2019.10.28, v4.1.3
+
+fix:
+- (madrun) init: pre, post
+
+
+2019.10.28, v4.1.2
+
+fix:
+- (madrun) init
+
+
+2019.10.27, v4.1.1
+
+feature:
+- (package) @putout/plugin-madrun v3.0.0
+- (package) yargs-parser v16.0.0
+
+
+2019.10.25, v4.1.0
+
+feature:
+- (madrun) predefined: eslint: add .madrun.js
+
+
+2019.10.25, v4.0.0
+
+feature:
+- (madrun) .madrun.js only
+
+
+2019.10.24, v3.1.1
+
+fix:
+- (madrun) .madrun.js support
+
+
+2019.10.24, v3.1.0
+
+feature:
+- (madrun) add support of .madrun
+
+
+2019.10.07, v3.0.6
+
+fix:
+- chore() lint
+
+feature:
+- (package) yargs-parser v15.0.0
+
+
+2019.09.18, v3.0.5
+
+fix:
+- (npmignore) .spec.js
+
+
+2019.09.18, v3.0.4
+
+feature:
+- (package) putout v6.0.0
+
+
+2019.09.11, v3.0.3
+
+fix:
+- (madrun) space
+- (madrun) init: no scripts section in package.json
+
+
+2019.09.09, v3.0.2
+
+feature:
+- (package) @putout/plugin-madrun v2.2.0
+- (package) eslint-plugin-node v10.0.0
+- (package) yargs-parser v14.0.0
+
+
+2019.08.29, v3.0.1
+
+fix:
+- (madrun) bin
+
+
+2019.08.29, v3.0.0
+
+feature:
+- (madrun) add ability to set environment variables
+
+
+2019.08.27, v2.5.1
+
+feature:
+- (package) putout v5.9.0
+- (package) eslint-plugin-putout v2.0.0
+
+
+2019.08.05, v2.5.0
+
+feature:
+- (madrun) predefined: putout: add ability pass options as an array
+
+
+2019.08.05, v2.4.0
+
+feature:
+- (madrun) predefined: add putout
+
+
+2019.07.22, v2.3.1
+
+fix:
+- (eslint) rm trimEnd
+
+
+2019.07.21, v2.3.0
+
+feature:
+- (madrun) predefined: eslint: rulesdir
+
+
+2019.07.21, v2.2.0
+
+feature:
+- (madrun) add predefined: eslint
+
+
+2019.07.11, v2.1.4
+
+fix:
+- (madrun) options
+
+
+2019.07.10, v2.1.3
+
+fix:
+- (madrun) npmignore: create when absent
+
+feature:
+- (package) eslint v6.0.1
+- (package) find-up v4.1.0
+- (package) nyc v14.1.1
+- (package) eslint-plugin-node v9.1.0
+
+
+2019.03.21, v2.1.2
+
+fix:
+- (madrun) putout: report -> initReport
+
+
+2019.03.12, v2.1.1
+
+feature:
+- (package) putout v4.10.0
+
+
+2019.02.21, v2.1.0
+
+feature:
+- (package) putout v4.2.0
+- (madrun) add bility to use run as series
+- (madrun) add -v, -h
+- (madrun) add --init
+
+
+2019.02.15, v2.0.1
+
+fix:
+- (npmignore) !bin/madrun.js
+
+
+2019.02.15, v2.0.0
+
+feature:
+- (madrun) .madrun.js -> madrun.js: eslint ignore pattern mess
+
+
+2019.02.15, v1.4.0
+
+fix:
+- feature(madrun) add support of --
+
+feature:
+- (madrun) add support of --fix
+
+
+2019.02.13, v1.3.0
+
+feature:
+- (madrun) add initial scripts check
+
+
+2019.02.13, v1.2.0
+
+feature:
+- (madrun) add check scripts
+
+
+2019.02.08, v1.1.1
+
+feature:
+- (package) yargs-parser v13.0.0
+
+
+2019.02.01, v1.1.0
+
+feature:
+- (package) yargs-parser v12.0.0
+- (madrun) add support of pre, post
+
+
+2019.01.25, v1.0.1
+
+fix:
+- (find) rm
+

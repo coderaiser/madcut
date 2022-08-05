@@ -1,4 +1,4 @@
-#  🎬 MadCut [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
+# 🎬 MadCut [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
 
 [NPMURL]: https://npmjs.org/package/madcut "npm"
 [NPMIMGURL]: https://img.shields.io/npm/v/madcut.svg?style=flat
@@ -42,8 +42,8 @@ await cut(montag`
         ## World
         
         This is the world\n
-    `
-]
+    `,
+];
 ```
 
 ### infer(markdown);
@@ -57,7 +57,7 @@ await infer(montag`
     ## World
 `);
 // returns
-['World']
+['World'];
 ```
 
 ## License

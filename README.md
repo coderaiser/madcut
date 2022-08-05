@@ -9,7 +9,7 @@
 [CoverageURL]: https://coveralls.io/github/coderaiser/madcut?branch=master
 [CoverageIMGURL]: https://coveralls.io/repos/coderaiser/madcut/badge.svg?branch=master&service=github
 
-CLI tool to run cut markdown into peaces. Based on 🐊[**Putout**](https://github.com/coderaiser/putout) code transformer.
+CLI tool to cut markdown into peaces. Based on 🐊[**Putout**](https://github.com/coderaiser/putout) code transformer.
 
 ## Install
 

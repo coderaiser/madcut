@@ -21,6 +21,8 @@ npm i madcut
 
 ### cut(markdown);
 
+Cut markdown file into a peaces list.
+
 ```js
 import {cut} from 'madcut';
 import montag from 'montag';
@@ -47,6 +49,8 @@ await cut(montag`
 ```
 
 ### infer(markdown);
+
+Infer captions to a list.
 
 ```js
 import {infer} from 'madcut';

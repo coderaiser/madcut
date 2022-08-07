@@ -20,4 +20,3 @@ await cli({
     readFile,
     writeFile,
 });
-

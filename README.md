@@ -17,7 +17,35 @@ CLI tool to cut markdown into peaces. Based on 🐊[**Putout**](https://github.c
 npm i madcut
 ```
 
+## CLI
+
+Just run 🎬**MadCut**, it will read `README.md` and write peaces according to their headings to files.
+Generally names converted to kebab form: `## Hello world` will be converted to file name `hello-world.md`.
+
+```sh
+$ madcut
+```
+
 ## API
+
+### madcut(markdown);
+
+Infer captions to a list.
+
+```js
+import madcut from 'madcut';
+import montag from 'montag';
+
+await madcut(montag`
+    # Hello
+    ## World
+`);
+// returns
+({
+    index: '# Hello\n',
+    world: '## World\n',
+});
+```
 
 ### cut(markdown)
 

@@ -12,7 +12,6 @@ export default {
     'watch:lint': async () => await run('watcher', await run('lint')),
     'watcher': () => 'nodemon -w test -w lib -w bin --exec',
     'coverage': async () => `escover ${await run('test:only')}`,
-    'report': () => 'c8 report --reporter=lcov',
     'postpublish': () => 'npm i -g',
 };
 

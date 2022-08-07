@@ -5,6 +5,9 @@
   "main": "lib/madcut.js",
   "type": "module",
   "commitType": "colon",
+  "bin": {
+    "madcut": "bin/madcut.js"
+  },
   "exports": {
     ".": "./lib/madcut.js",
     "./plugin": "./lib/plugin.js"
@@ -27,10 +30,6 @@
     "type": "git",
     "url": "git://github.com/coderaiser/madcut.git"
   },
-  "bin": {
-    "madcut": "bin/madcut.mjs",
-    "madcut-completion": "bin/madcut-completion.js"
-  },
   "keywords": [
     "madcut",
     "markdown",
@@ -52,7 +51,6 @@
     "@putout/processor-markdown": "^7.2.0"
   },
   "devDependencies": {
-    "c8": "^7.3.5",
     "escover": "^2.0.1",
     "eslint": "^8.0.0",
     "eslint-plugin-n": "^15.2.4",
@@ -62,7 +60,7 @@
     "mock-require": "^3.0.3",
     "montag": "^1.2.1",
     "nodemon": "^2.0.0",
-    "nyc": "^15.0.0",
+    "putout": "^27.0.1",
     "runsome": "^1.0.0",
     "supertape": "^7.0.0"
   },

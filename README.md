@@ -19,7 +19,7 @@ npm i madcut
 
 ## API
 
-### cut(markdown);
+### cut(markdown)
 
 Cut markdown file into a peaces list.
 

@@ -12,15 +12,15 @@ jobs:
         node-version:
           - 16.x
           - 18.x
+          - 19.x
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install
         run: npm install
-       
       - name: Lint
         run: npm run fix:lint
       - uses: actions-rs/toolchain@v1
@@ -35,21 +35,16 @@ jobs:
             ~/.cargo/git/db/
             target/
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
-      
       - name: Typos Install
         run: cargo install typos-cli || echo 'already installed'
-        
       - name: Typos
         run: typos --write-changes
-        
       - name: Commit fixes
-        uses: EndBug/add-and-commit@v7
+        uses: EndBug/add-and-commit@v9
         with:
           message: "chore: ${{ env.NAME }}: lint using actions ☘️"
-      
       - name: Coverage
         run: npm run coverage
-      
       - name: Coveralls
         uses: coverallsapp/github-action@master
         with:

@@ -62,7 +62,7 @@
     "nodemon": "^2.0.0",
     "putout": "^28.3.0",
     "runsome": "^1.0.0",
-    "supertape": "^7.0.0"
+    "supertape": "^8.2.0"
   },
   "publishConfig": {
     "access": "public"

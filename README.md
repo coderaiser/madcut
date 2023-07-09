@@ -40,6 +40,7 @@ await madcut(montag`
     # Hello
     ## World
 `);
+
 // returns
 ({
     index: '# Hello\n',
@@ -88,6 +89,7 @@ await infer(montag`
     # Hello
     ## World
 `);
+
 // returns
 ['World'];
 ```

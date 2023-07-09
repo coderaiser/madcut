@@ -4,7 +4,6 @@
   "description": "CLI tool to cut markdown file in a madly comfortable way",
   "main": "lib/madcut.js",
   "type": "module",
-  "commitType": "colon",
   "bin": {
     "madcut": "bin/madcut.js"
   },

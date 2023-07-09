@@ -14,4 +14,3 @@ export default {
     'coverage': async () => `escover ${await run('test:only')}`,
     'postpublish': () => 'npm i -g',
 };
-

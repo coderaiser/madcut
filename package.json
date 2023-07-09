@@ -51,7 +51,7 @@
     "@putout/processor-markdown": "^9.0.1"
   },
   "devDependencies": {
-    "escover": "^2.0.1",
+    "escover": "^3.4.0",
     "eslint": "^8.0.0",
     "eslint-plugin-n": "^15.2.4",
     "eslint-plugin-putout": "^16.0.0",

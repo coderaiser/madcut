@@ -1,3 +1,13 @@
+2023.07.09, v1.4.0
+
+feature:
+- 29b5083 package: putout v30.2.0
+- 036bed9 package: mock-import v3.2.0
+- 3651d52 package: eslint-plugin-putout v18.0.0
+- 79d3979 package: eslint-plugin-n v16.0.1
+- cadfe8d package: escover v3.4.0
+- cfe148a package: @putout/processor-markdown v9.0.1
+
 2023.01.06, v1.3.0
 
 fix:

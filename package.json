@@ -47,7 +47,7 @@
     "node": ">=16"
   },
   "dependencies": {
-    "@putout/processor-markdown": "^9.0.1"
+    "@putout/processor-markdown": "^10.1.0"
   },
   "devDependencies": {
     "escover": "^3.4.0",

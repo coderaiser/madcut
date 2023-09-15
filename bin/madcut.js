@@ -3,7 +3,8 @@
 import {
     readFile,
     writeFile,
-} from 'fs/promises';
+} from 'node:fs/promises';
+import process from 'node:process';
 import cli from '../lib/cli.js';
 
 const {stdout} = process;

@@ -1,3 +1,12 @@
+2023.09.15, v1.4.1
+
+feature:
+- 81904ed package: @putout/processor-markdown v10.1.0
+- 3de6b4b package: putout v32.0.4
+- d8720ed package: eslint-plugin-putout v19.0.3
+- 23ac710 package: putout v31.0.4
+- 78596f6 package: nodemon v3.0.1
+
 2023.07.09, v1.4.0
 
 feature:

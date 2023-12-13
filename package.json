@@ -44,7 +44,7 @@
   "homepage": "https://github.com/coderaiser/madcut",
   "license": "MIT",
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "dependencies": {
     "@putout/processor-markdown": "^11.0.0"

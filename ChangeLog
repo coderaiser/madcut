@@ -1,3 +1,17 @@
+2024.01.29, v2.0.0
+
+feature:
+- b5fde27 madcut: putout v35.0.1
+- 0ac5670 madcut: @putout/processor-markdown v12.0.0
+- 4c8b738 madcut: mock-import v4.0.2
+- 29b3660 madcut: drop support of node < 18
+- fa7b91c madcut: escover v4.0.1
+- 6f52a74 madcut: putout v34.0.9
+- 4f617e1 madcut: supertape v9.0.0
+- a41607a madcut: madrun v10.0.0
+- 6b758ff madcut: @putout/processor-markdown v11.0.0
+- 9d3fb0f madcut: eslint-plugin-putout v22.1.0
+
 2023.09.15, v1.4.1
 
 feature:

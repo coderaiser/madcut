@@ -1,6 +1,6 @@
 {
   "name": "madcut",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "CLI tool to cut markdown file in a madly comfortable way",
   "main": "lib/madcut.js",
   "type": "module",

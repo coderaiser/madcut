@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/coderaiser/madcut.git"
+    "url": "git+https://github.com/coderaiser/madcut.git"
   },
   "keywords": [
     "madcut",
@@ -55,8 +55,6 @@
     "eslint-plugin-n": "^17.23.2",
     "eslint-plugin-putout": "^30.0.1",
     "madrun": "^12.1.0",
-    "mock-import": "^5.0.0",
-    "mock-require": "^3.0.3",
     "montag": "^1.2.1",
     "nodemon": "^3.0.1",
     "putout": "^41.12.0",

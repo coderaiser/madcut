@@ -1,9 +1,6 @@
 #!/usr/bin/env node
 
-import {
-    readFile,
-    writeFile,
-} from 'node:fs/promises';
+import {readFile, writeFile} from 'node:fs/promises';
 import process from 'node:process';
 import cli from '../lib/cli.js';
 

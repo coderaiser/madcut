@@ -9,7 +9,7 @@
 [CoverageURL]: https://coveralls.io/github/coderaiser/madcut?branch=master
 [CoverageIMGURL]: https://coveralls.io/repos/coderaiser/madcut/badge.svg?branch=master&service=github
 
-CLI tool to cut markdown into peaces. Based on 🐊[**Putout**](https://github.com/coderaiser/putout) code transformer.
+CLI tool to cut markdown into pieces. Based on 🐊[**Putout**](https://github.com/coderaiser/putout) code transformer.
 
 ## Install
 
@@ -19,7 +19,7 @@ npm i madcut
 
 ## CLI
 
-Just run 🎬**MadCut**, it will read `README.md` and write peaces according to their headings to files.
+Just run 🎬**MadCut**, it will read `README.md` and write pieces according to their headings to files.
 Generally names converted to kebab form: `## Hello world` will be converted to file name `hello-world.md`.
 
 ```sh
@@ -50,7 +50,7 @@ await madcut(montag`
 
 ### cut(markdown)
 
-Cut markdown file into a peaces list.
+Cut markdown file into a pieces list.
 
 ```js
 import {cut} from 'madcut';
